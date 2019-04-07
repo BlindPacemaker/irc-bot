@@ -1,4 +1,4 @@
-#!/usr/bin/python3#!/usr/bin/python3
+#!/usr/bin/python3
 
 import socket
 ircsock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
