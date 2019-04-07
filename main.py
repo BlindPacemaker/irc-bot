@@ -3,9 +3,9 @@
 import socket
 ircsock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 server = "irc.freenode.net"
-channel = "##darkbot-testing"
-botnick = "darkBot"
-adminname = "darkSeid"
+channel = "##botname-testing"
+botnick = "botname"
+adminname = "username"
 exitcode = "bye " + botnick
 
 ircsock.connect((server, 6667))
